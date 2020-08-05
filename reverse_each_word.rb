@@ -9,11 +9,11 @@ end
 
 def reverse_each_word(string)
   array = string.split(" ") 
-  test_array = []
+  another_array = []
   array.collect do|string|
-   test_array << string.reverse 
+   another_array << string.reverse 
   end
-  test_array.join(" ")
+  another_array.join(" ")
 end
 
 
